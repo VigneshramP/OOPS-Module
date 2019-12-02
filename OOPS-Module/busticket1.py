@@ -57,7 +57,7 @@ def getPassengerDetails(seats):
 	)	
 	return dict(passengerDetails)
 
-def ticketBooking():
+def bookTicket():
 	startingPoint = raw_input("Enter Your Starting Location\n")	
 	destination = raw_input("Enter Your Destination\n")
 	requriedSeat = int(input("Howmany Seats Your are Required?\n"))
@@ -83,7 +83,7 @@ def main():
 		choice = getChoice()
 		if choice == 1:
 			print "<====== WELCOME =====>\n"
-			ticketBooking()			
+			bookTicket()			
 			
 		elif choice == 2:
 			check = isTicketListEmpty()
