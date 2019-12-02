@@ -89,7 +89,7 @@ def main():
 			check = isTicketListEmpty()
 			if check == True:
 				print "Please Book a Ticket First\n"
-				ticketBooking()
+				bookTicket()
 			else:
 				printTicket()
 
